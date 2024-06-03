@@ -170,13 +170,14 @@ max-width: 350px;
         justify-content: center;
         margin-bottom: 2rem;
         gap: .5rem;
-        padding: 0;
+        
+        width: 100%;
         
      
         }
         .app__gallery-images img{
             width: 151px;
-            height: 250px;
+            height: 220px;
            
          }
          .app__gallery-content{

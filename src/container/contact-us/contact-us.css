@@ -51,8 +51,12 @@ text-align: center;
  
     .app__contact-us{
         flex-direction: column;
+    padding: 3rem 2rem;
+      
     }
     .app__contact-us_Section02 {
         margin: 2rem 0;
+        align-items: flex-start;
+        width: 100%;
     }
 }

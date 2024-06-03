@@ -1,13 +1,14 @@
 .app__award-item{
     display: flex;
     align-items: center;
+    
 }
 .app__award-item-img{
     margin-right: 2rem;
 }
 .app__award-item-img img{
-    width: 250px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 .app__award-item-heading h3{
 font-family: var(--font-base);
@@ -21,7 +22,7 @@ color: var(--color-golden);
 }
 
 .app__award-item-heading p{
-    max-width: 350px;
+    min-width: 150px;
 color: var(--color-grey);
 
 font-family: var(--font-alt);
@@ -70,7 +71,10 @@ text-align: left;
 }
 
 @media screen and (max-width: 650px) {
- 
+    .app__award-item{
+        width: 400px;
+        
+    }
 }
 
 @media screen and (max-width: 450px) {
