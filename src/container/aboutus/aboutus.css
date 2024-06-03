@@ -106,7 +106,8 @@ letter-spacing: 0.04em;
         flex-direction: column;
      }
      .app__about-us{
-        align-items: center;
+        align-items: flex-start;
+        text-align: left;
      }
      .app__about-image{
         margin: 3rem 0;
@@ -115,7 +116,8 @@ letter-spacing: 0.04em;
         width: 50%;
      }
      .app__about-history{
-        align-items: center;
+        align-items: flex-start;
+        text-align: left;
      }
    
   }

@@ -78,7 +78,7 @@ cursor: pointer;
 }
 .app__navbar-overlay-close-icon{
     z-index: 6;
-  
+   position: fixed;
 }
 
 .app__navbar-overlay-register{

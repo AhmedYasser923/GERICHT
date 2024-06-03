@@ -134,7 +134,7 @@ margin-bottom: 2rem;
  }
  .app__chef-content{
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 3rem;
  }
  .quote-p{

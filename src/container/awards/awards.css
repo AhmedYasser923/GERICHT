@@ -29,6 +29,7 @@
   line-height: 83.2px;
   letter-spacing: 0.03em;
   text-align: left;
+  
 }
 .app__awards-content {
   display: flex;
@@ -153,4 +154,13 @@
 }
 
 @media screen and (max-width: 450px) {
+    .app__awards-content-header h1 {
+        font-family: var(--font-family);
+        color: var(--color-golden);
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 83.2px;
+        letter-spacing: 0.03em;
+        text-align: left;
+      }
 }

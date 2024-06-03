@@ -35,7 +35,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-
+::-webkit-scrollbar {display:none;}
 .app__wrapper_img {
   flex: 1;
   width: 100%;

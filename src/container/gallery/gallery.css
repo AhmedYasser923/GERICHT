@@ -170,6 +170,7 @@ max-width: 350px;
         justify-content: center;
         margin-bottom: 2rem;
         gap: .5rem;
+        padding: 0;
         
      
         }
@@ -178,15 +179,15 @@ max-width: 350px;
             height: 250px;
            
          }
-         .app__gallery{
-           padding: 2rem 3rem 0 3rem;
-
+         .app__gallery-content{
+            padding: 0;
          }
+        
          .app__gallery{
             display: flex;
             justify-content: center;
-            align-items: center;
-            padding: 2rem 0 0 2rem;
+            align-items: flex-start;
+            padding: 2rem 0 0 1rem;
             background-color: var(--color-black);
         }
 }
